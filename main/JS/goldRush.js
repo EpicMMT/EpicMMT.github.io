@@ -16,7 +16,9 @@ let backgroundAudio = new Audio('main/audio/backgroundAudio.mp3');
 backgroundAudio.loop = true;
 backgroundAudio.volume = 0.1;
 let coinPickAudio = new Audio('main/audio/coinPickup.mp3');
+coinPickAudio.volume = 0.1;
 let winAudio = new Audio('main/audio/winAudio.mp3');
+winAudio.volume = 0.1;
 /*dichiarazione globale posizione iniziale personaggio*/
 let x=250;
 let y=250;
