@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="header">
+            <img src="main\img\HUD\titleGoldRush.png" id="title">
+            <img src="main\img\HUD\logoTreasureChest.png" id="logo">
+        </div>
+        <div id="container">
+                <img src="main\img\HUD\instructions.png" id="instructions">
+                <input type="image" src="main\img\HUD\startButton.png" onclick="start()" id="inizio">
+                <img src="main\img\HUD\winText.PNG" id="winText">
+                <input type="image" src="main\img\HUD\playAgain.PNG" onclick="playAgain()" id="playAgainButton">
+                <img src="main\img\HUD\instructionsScroll.png" id="scroll">
+            <canvas id="tela" width="500" height="500"></canvas>
+            <div id="movement">
+                <input type="image" src="main\img\HUD\up-arrow-button.png" id="up" onclick="up()" >
+                <div id="botArrows">
+                    <input type="image" src="main\img\HUD\left-arrow-button.png" id="left" onclick="left()">
+                    <input type="image" src="main\img\HUD\down-arrow-button.png" id="down" onclick="down()">
+                    <input type="image" src="main\img\HUD\right-arrow-button.png" id="right" onclick="right()">       
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+    <head>
+        <title>Gold Rush</title>
+        <link rel="stylesheet" href="main\CSS\goldRush.css">
+        <script src="main\JS\goldRush.js"></script>
+    </head>
+</html>

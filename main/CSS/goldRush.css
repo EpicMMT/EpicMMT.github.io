@@ -1,0 +1,17 @@
+body {width:100%;height:auto;background-color:#F9D923;background-image: url(CSS-img/background.jpg);margin:0px}
+body button {background-color:#187498;border:0px}
+#header {background-color:hsl(0, 79%, 62%);width:895px;height:180px;margin-left:auto;margin-right:auto}
+#header img {text-align: center;}
+#logo {margin-bottom:30px}
+#container {background-color:#187498;width:895px;height:750px;margin-left:auto;margin-right:auto;padding-top:40px}
+#coincounter {margin-left:40%;height:200px}
+#tela {height:430px;width:430px;background-image: url("CSS-img/meadow.jpg");background-color:#187498;border: 3px solid black;display:block;margin-left:auto;margin-right:auto;z-index:1}
+#inizio {position:absolute;z-index: 20;height:40px;width:120px;cursor:pointer;border: 0px;margin-left:390px;margin-top:300px}
+#scroll {width:300px;height:400px;z-index: 10;position:absolute;margin-left:300px;margin-top:10px}
+#instructions {width:240px;height:200px;z-index:20;position:absolute;margin-left:330px;margin-top:80px}
+#winText {width:240px;height:200px;z-index:31;margin-left:330px;margin-top:80px;position:absolute;visibility: hidden;}
+#playAgainButton {position:absolute;z-index:24;width:180px;height:70px;cursor:pointer;margin-left:360px;margin-top:270px;visibility: hidden;}
+#movement input {height:80px;width:80px;cursor:pointer;background-color:#36AE7C;border:0px;}
+#up {margin-top:50px;display:block;margin-left:auto;margin-right:auto}
+#downArrows {text-align: center;}
+#left {margin-left:36.2%}
